@@ -1,15 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import { Header } from "./pages/Header.js";
+import { posts } from "./data/posts.js";
 
-function App() {
+export const App = () => {
   return (
-    <html lang="ja">
-      <meta charset="UTF-8" />
-      <header className="header">
-        <div className="header-list">Blog</div>
-        <div className="header-list">お問い合わせ</div>
-      </header>
-
+    <>
+      <Header />
+      <Header />
       <body>
         <div className="post">
           <div className="info">
@@ -73,8 +69,8 @@ function App() {
           </p>
         </div>
       </body>
-    </html>
+    </>
   );
-}
+};
 
 export default App;
