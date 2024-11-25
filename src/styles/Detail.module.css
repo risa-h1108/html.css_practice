@@ -1,30 +1,13 @@
-.header {
-  background-color: #333;
-  color: #fff;
-  padding: 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.header-link {
-  color: #fff;
-  text-decoration: none;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px 107px;
-  background-color: #ffffff;
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 /*↓ 中の`img`は、`.postImage`クラスを持つ要素の中にある画像要素（`<img>`タグ）を指定している。*/
-.postImage {
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+img {
+  margin-top: 48px;
+  max-width: 100%;
+  height: auto;
 }
 
 .post {
@@ -35,24 +18,24 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.post h2 {
+h2 {
   margin-top: 0;
 }
 
-.post .info {
+.info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-.post .date {
+.date {
   color: #888888;
   font-size: 0.9em;
   margin-right: 5px;
 }
 
-.post .categories {
+.categories {
   list-style: none;
   padding: 0;
   margin: 0 0 10px 0;
@@ -60,7 +43,7 @@ body {
   gap: 10px;
 }
 
-.post .categories li {
+.categories li {
   padding: 5px 10px;
   border-radius: 5px;
   border: solid;
@@ -69,7 +52,7 @@ body {
   color: rgb(9, 102, 252);
 }
 
-.post .content {
+.content {
   line-height: 1.6;
 }
 
