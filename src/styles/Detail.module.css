@@ -1,0 +1,82 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px 107px;
+  background-color: #ffffff;
+}
+
+/*↓ 中の`img`は、`.postImage`クラスを持つ要素の中にある画像要素（`<img>`タグ）を指定している。*/
+.postImage {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.post {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.post .date {
+  color: #888888;
+  font-size: 0.9em;
+  margin-right: 5px;
+}
+
+.post .categories {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.post .categories li {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid;
+  border-color: #4e7dff;
+  font-size: 0.9em;
+  color: rgb(9, 102, 252);
+}
+
+.post .content {
+  line-height: 1.6;
+}
+
+/*rem:相対単位。`px`（ピクセル）などの絶対単位とは違い、他の要素のサイズに依存するという意味。*/
+.postError {
+  margin: 2rem auto; /*ルート要素のフォントサイズの2倍の大きさを上下のマージンに設定し、左右は自動で中央揃えになるようにしている*/
+  text-align: center;
+  font-size: 1.5rem; /*ルート要素のフォントサイズの1.5倍の大きさを指定している*/
+  font-weight: bold;
+}
