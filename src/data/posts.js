@@ -2,7 +2,7 @@
 export const posts = [
   {
     id: 1,
-    title: "記事タイトル１",
+    title: "APIで取得した記述タイトル１",
     thumbnailUrl: "https://placehold.jp/800x400.png",
     createdAt: "2023-09-11T09:00:00.000Z",
     categories: ["React", "TypeScript"],
@@ -11,7 +11,7 @@ export const posts = [
   },
   {
     id: 2,
-    title: "記事タイトル２",
+    title: "APIで取得した記述タイトル２",
     thumbnailUrl: "https://placehold.jp/800x400.png",
     createdAt: "2023-09-10T09:00:00.000Z",
     categories: ["HTML", "CSS"],
@@ -20,7 +20,7 @@ export const posts = [
   },
   {
     id: 3,
-    title: "記事タイトル３",
+    title: "APIで取得した記述タイトル３",
     thumbnailUrl: "https://placehold.jp/800x400.png",
     createdAt: "2023-09-09T09:00:00.000Z",
     categories: ["JavaScript"],
