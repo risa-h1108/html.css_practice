@@ -50,3 +50,10 @@
   text-decoration: none;
   color: #333;
 }
+
+.postLoading {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
