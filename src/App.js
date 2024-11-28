@@ -1,6 +1,6 @@
 import { Header } from "./pages/Header.js";
-import { Home } from "./data/Home.index.jsx";
-import { Detail } from "./data/Detail.index.jsx";
+import { Home } from "./components/Home.jsx";
+import { Detail } from "./components/Detail.jsx";
 import { Route, Routes } from "react-router-dom";
 
 export const App = () => {
