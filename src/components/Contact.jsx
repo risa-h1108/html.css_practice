@@ -116,11 +116,10 @@ export const Contact = () => {
           </div>
 
           <div className={classes.buttonWrapper}>
-            {/*type="submit":ボタンがフォームを送信するものと表示。
-        disabled={isSubmitting}は、`isSubmitting`が`true`のときにボタンを無効化します。つまり、送信中はボタンが押せなくなります。*/}
+            {/*disabled={isSubmitting}は、`isSubmitting`が`true`のときにボタンを無効化します。つまり、送信中はボタンが押せなくなります。*/}
             <button
               className={classes.send}
-              type="submit"
+              type="submit" //ボタンがフォームを送信するものと表示。enterで実行できる
               disabled={isSubmitting}
             >
               {/*JavaScriptの条件演算子（テレナリー演算子）を使っています。
