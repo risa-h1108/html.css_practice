@@ -2,6 +2,7 @@ import { Header } from "./pages/Header.js";
 import { Home } from "./components/Home.jsx";
 import { Detail } from "./components/Detail.jsx";
 import { Route, Routes } from "react-router-dom";
+import { Contact } from "./components/Contact.jsx";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
         <Route path="/" element={<Home />} />
 
         <Route path="/post/:id" element={<Detail />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
